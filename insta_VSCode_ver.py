@@ -47,21 +47,61 @@ def get_content(driver):
         content = ' '
         
     # 해시태그 추출
-    hashtag = re.findall(r'#[^\s#,\\]+', content)
+    hashtags = re.findall(r'#[^\s#,\\]+', content)
     
     # 작성일자 추출
     date = soup.select('time._aaqe')[0]['datetime'][:10]
     
     # 좋아요수 추출
+    # 좋아요수 표시 케이스
+    # 1. 좋아요가 한개일때
+    # 2. 좋아요수가 없을때
+    # 3. 좋아요수를 비공개로 설정해둔 경우
+    # 4. 좋아요수가 공개, 2개 이상인 경우
+    # 5. 좋아요수는 없고 조회수만 있는 경우
     try:
-        like = soup.select_one('div._aacl._aaco._aacw._aacx._aada._aade > span').text
+        # 3번 경우(좋아요수 비공개인것들 처리)
+        like_pattern = '여러'
+        like = soup.select_one('div._aacl._aaco._aacw._aacx._aada._aade').text
+        re.match(like_pattern, like).group()
+        
+        print('match=ok')  # 오류를 확인하기 위한 출력
+        
+        # '여러 명'이 좋아합니다. 클릭
+        many = driver.find_element(By.CSS_SELECTOR, '._aacl._aaco._aacw._aacx._aada._aade')
+        print('click=error')  # 오류를 확인하기 위한 출력
+        many.click()
+        print('click=ok')  # 오류를 확인하기 위한 출력
+        time.sleep(3)
+        
+        # '좋아요' 목록에서 유저id 추출후 좋아요수 세기
+        like = len(soup.select('span._aacl._aaco._aacw._aacx._aad7._aade').text)
+        print(like)  # 오류를 확인하기 위한 출력
+        like = f'좋아요 {like}개'
         view = 0
+        
+        # 창 닫기
+        close = driver.find_element(By.CSS_SELECTOR, '._ab9y')
+        print('close=error')  # 오류를 확인하기 위한 출력
+        close.click()
+        print('close=ok')  # 오류를 확인하기 위한 출력
+        time.sleep(3)
 
     except:
-        like = 0
-        view = soup.select('_aacl._aaco._aacw._aacx._aad6._aade > span')[1].text
+        try:
+            # 5번경우
+            like = 0
+            view = soup.select('div._aacl._aaco._aacw._aacx._aad6._aade')[1].text
+        except:
+            try:
+                # 1,4번 경우
+                like = soup.select_one('div._aacl._aaco._aacw._aacx._aada._aade').text
+                view = 0
+            except:
+                like = 0
+                view = 0
 
-    data = [date, like, view, hashtag, content]
+    data = [date, like, view, hashtags, content]
     
     return data
 
@@ -88,7 +128,7 @@ input_pw.send_keys(password)
 input_pw.submit()
 
 time.sleep(5)
-print('login success') # 오류를 확인하기 위한 출력
+print('login success')  # 오류를 확인하기 위한 출력
 
 # 로그인 정보 저장 묻는거
 driver.find_elements(By.CSS_SELECTOR, '.sqdOP')[1].click()
@@ -101,13 +141,14 @@ time.sleep(3)
 # 검색 키워드 입력
 word = input("검색어를 입력하세요 : ")
 word = str(word)
-url = searching_tag(word)
-print(url)  # 오류를 확인하기 위한 출력
+word_url = searching_tag(word)
+print(word_url)  # 오류를 확인하기 위한 출력
 
 # 검색 결과 페이지 열기
-driver.get(url)
-time.sleep(10)
+driver.get(word_url)
 print('page_open')  # 오류를 확인하기 위한 출력
+time.sleep(10)
+
 
 # 첫 번째 게시물 클릭
 first_click(driver)
@@ -117,11 +158,11 @@ print('click')  # 오류를 확인하기 위한 출력
 results = []
 
 ## 수집할 게시물의 수
-target = 10
+target = 100
 for i in range(target):
     try:   
         data = get_content(driver)
-        print(data)
+        print(data)  # 오류를 확인하기 위한 출력
         print('data')  # 오류를 확인하기 위한 출력
         results.append(data)
         print('append')  # 오류를 확인하기 위한 출력
@@ -133,7 +174,6 @@ for i in range(target):
         time.sleep(2)
         move_next(driver)
 
-print(results[:3])
 
 import pandas as pd
 
