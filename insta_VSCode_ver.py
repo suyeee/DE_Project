@@ -196,7 +196,7 @@ results = []
 # 수집할 게시물의 수
 target = 10
 
-# def crawling(target):
+
 for i in range(target):
     try:   
         data = get_content(driver)
@@ -211,15 +211,7 @@ for i in range(target):
         time.sleep(5)
         move_next(driver)
 
-    # print(i)  # 오류를 확인하기 위한 출력
       
-# # thread
-# import threading  
-       
-# for target in range(10):
-#     th = threading.Thread(target=crawling, args=(target, ))
-#     th.start()
-
 # 드라이버 종료
 driver.quit()
 
