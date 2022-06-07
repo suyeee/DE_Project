@@ -95,7 +95,7 @@ def get_content(driver):
         
         # 다시 메인 브라우저 (첫번째 브라우저로 이동)
         driver.switch_to.window(tabs[0])
-        time.sleep(3)
+        time.sleep(4)
         
     except:
         try:
@@ -122,9 +122,34 @@ def get_content(driver):
 def move_next(driver):
     right = driver.find_element(By.CSS_SELECTOR, 'div._aaqg._aaqh > ._abl-')
     right.click()
-    time.sleep(3)
+    time.sleep(5)
+    
+# 슬랙-웹훅으로 크롤링에 걸리는 시간 체크하기
+def send_slack(text):
+    import requests
+    import json
+    import datetime
+
+    WEBHOOK_URL = "url"
+
+    # 현재시간도 출력
+    now = datetime.datetime.now()
+    now = now.strftime("%Y/%m/%d, %H:%M:%S")
+    
+    # text와 현재시간을 같이 슬랙 메세지로 전송
+    text = text + f', 시간: {now}'
+    
+    payload = {
+        'username' : '크롤링봇',
+        "text" : text
+        }
+    
+    requests.post(WEBHOOK_URL, json.dumps(payload))
+     
     
 # 크롤링 시작
+send_slack('크롤링 시작')
+
 # 메인 브라우저
 driver.switch_to.window(tabs[0])
 driver.get('https://www.instagram.com')
@@ -168,30 +193,62 @@ first_click(driver)
 # 데이터 수집
 results = []
 
-## 수집할 게시물의 수
-target = 100
+# 수집할 게시물의 수
+target = 10
+
+# def crawling(target):
 for i in range(target):
     try:   
         data = get_content(driver)
         print(data)  # 오류를 확인하기 위한 출력
         results.append(data)
         move_next(driver)
-        print('next')  # 오류를 확인하기 위한 출력
-       
+        print('next',i)  # 오류를 확인하기 위한 출력
+    
     except:
         # 게시글에 사진만있고 글 내용이 아무것도 없는경우
-        print('error')  # 오류를 확인하기 위한 출력
-        time.sleep(2)
+        print('error',i)  # 오류를 확인하기 위한 출력
+        time.sleep(5)
         move_next(driver)
+
+    # print(i)  # 오류를 확인하기 위한 출력
+      
+# # thread
+# import threading  
+       
+# for target in range(10):
+#     th = threading.Thread(target=crawling, args=(target, ))
+#     th.start()
 
 # 드라이버 종료
 driver.quit()
+
+send_slack('드라이버 종료')
 
 # 결과물 저장 
 # 지금은 일단 csv로 저장, 나중엔 sql로 저장
 import pandas as pd
 
 results_df = pd.DataFrame(results)
-results_df.columns = ['date', 'like', 'view', 'tag', 'content']
-results_df.to_csv('insta.csv')
+# results_df.columns = ['date', 'like', 'view', 'tag', 'content']
+# results_df.to_csv('insta.csv')
+
+# SQL로 저장하기
+from sqlalchemy import *
+# import MySQLdb
+
+HOST = "aws"
+DB_USER   = "0000"
+DB_PASSWD = "0000"
+DB_NAME = "insta"
+
+conn = f"mysql://{DB_USER}:{DB_PASSWD}@{HOST}/{DB_NAME}?charset=utf8"
+engine = create_engine(conn, encoding='utf-8')
+
+results_df.to_sql(name='insta_crawling', con=engine, index = False, if_exists='replace')
+
+conn.close()
+
 print('save : ok')  # 오류를 확인하기 위한 출력
+
+send_slack('결과 저장')
