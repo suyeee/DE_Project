@@ -1,6 +1,8 @@
 import requests
 import re
 
+# 영화목록에서 영화코드 먼저 뽑아오고난후 staff명, staff 역할, 각 역할마다의 스텝인원 뽑아오기
+
 API_KEY = "key"
 API_URL = 'http://www.kobis.or.kr/kobisopenapi/webservice/rest/movie/searchMovieList.json?key={}&prdtStartYear=2012&prdtEndYear=2022&curPage={}'
 
