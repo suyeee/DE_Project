@@ -2,8 +2,8 @@
 
 > 팀원들의 분석결과는 제외  
 
-
-
+\
+\
 # 💡**주제 선정**
 
 코로나 이후 첫 천만관객 영화인 범죄도시2를 보며 영화를 흥행하게 만드는 흥행요소는 어떤것일지 알아보고자 분석을 진행하였다.
@@ -36,21 +36,9 @@
 
 # 💻기술 스택
 
-<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)">
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"><img src = "https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"><img src = "https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"><img src = "https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white"><img src = "https://img.shields.io/badge/json-000000?style=for-the-badge&logo=json&logoColor=white"><img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"><img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"><img src="https://img.shields.io/badge/seaborn-0B2C4A?style=for-the-badge&logo=seaborn&logoColor=white">
 
-<img src = “[https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)”>
 
-<img src = “[https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white](https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)”>
-
-<img src = “[https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white](https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)”>
-
-<img src = “[https://img.shields.io/badge/json-000000?style=for-the-badge&logo=json&logoColor=white](https://img.shields.io/badge/json-000000?style=for-the-badge&logo=json&logoColor=white)”>
-
-<img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white](https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)">
-
-<img src="[https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white)">
-
-<img src="[https://img.shields.io/badge/seaborn-0B2C4A?style=for-the-badge&logo=seaborn&logoColor=white](https://img.shields.io/badge/seaborn-0B2C4A?style=for-the-badge&logo=seaborn&logoColor=white)">
 
 
 
