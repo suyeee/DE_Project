@@ -2,7 +2,7 @@
 
 > 팀원들의 분석결과는 제외  
 
-\
+
 \
 # 💡**주제 선정**
 
@@ -36,7 +36,7 @@
 
 # 💻기술 스택
 
-<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"><img src = "https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"><img src = "https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"><img src = "https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white"><img src = "https://img.shields.io/badge/json-000000?style=for-the-badge&logo=json&logoColor=white"><img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"><img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"><img src="https://img.shields.io/badge/seaborn-0B2C4A?style=for-the-badge&logo=seaborn&logoColor=white">
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src = "https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"> <img src = "https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"> <img src = "https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white"> <img src = "https://img.shields.io/badge/json-000000?style=for-the-badge&logo=json&logoColor=white"> <img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/seaborn-0B2C4A?style=for-the-badge&logo=seaborn&logoColor=white">
 
 
 
