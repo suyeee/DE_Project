@@ -1,10 +1,16 @@
-# 영화흥행요소 분석 포트폴리오
+<br/>
 
-> 팀원들의 분석결과는 제외 
+<div align="center">
+    <h1>
+        영화 흥행요소 분석 포트폴리오
+    </h1>
+</div>
+
+> **팀원들의 분석결과는 제외 **
 
 <br/>
 
-<img src="README.assets/image-20220625000728348.png" alt="image-20220625000728348" style="zoom: 50%;" />
+<img src="README.assets/image-20220625000728348.png" alt="image-20220625000728348" width="60%" height="50%" />
 
 <br/><br/>
 
