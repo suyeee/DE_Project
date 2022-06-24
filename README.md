@@ -6,11 +6,17 @@
     </h1>
 </div>
 
-> **팀원들의 분석결과는 제외 **
+> **팀원들의 분석결과는 제외**
 
 <br/>
 
-<img src="README.assets/image-20220625000728348.png" alt="image-20220625000728348" width="60%" height="50%" />
+<div align="center">
+    <img src="README.assets/image-20220625000728348.png" alt="image-20220625000728348" width="60%" height="50%" />
+</div>
+
+</div>
+
+
 
 <br/><br/>
 
