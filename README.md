@@ -99,7 +99,7 @@
 
 > **슬랙, 노션, 줌으로 진행상황 공유**
 
-
+<br/>
 
 **노션**
 
@@ -109,7 +109,11 @@
 
 # 🎮**인스타그램 크롤링 과정**
 
-<img src="README.assets/Untitled 2.png" alt="Untitled" style="zoom:50%;" />
+<br/>
+
+<div align='center'>
+    <img src="README.assets/Untitled 2.png" alt="Untitled" width="50%" height="50%" />
+</div>
 
 <br/>
 
@@ -133,7 +137,13 @@
 
 ## 한국 영화시장
 
-<img src="README.assets/Untitled 3.png" alt="Untitled" style="zoom: 33%;" />
+<br/>
+
+<div align = 'center'>
+    <img src="README.assets/Untitled 3.png" alt="Untitled" width="60%" height="50%"/>
+</div>
+
+​    
 
 - 최근 10년간의 한국영화만 본것
 - 최근 10년간 영화관에서 상영한 영화의 갯수는 693개 이며, 이 영화들중 500만 이상의 영화는 49개, 700만 이상은 31개, 천만영화의 경우 14개
@@ -143,7 +153,7 @@
 
 ## 코로나 기간의 영화시장
 
-<img src="README.assets/Untitled 4.png" alt="Untitled" style="zoom:50%;" />
+<img src="README.assets/Untitled 4.png" alt="Untitled" width="60%" height="50%" />
 
 - 코로나 기간동안 (2020.04~2022.03) 개봉한 영화들의 흥행 실적
 - 코로나 발생기간동안에는 500만 이상으로 흥행한 영화는 없는것으로 나왔다.
@@ -157,11 +167,11 @@
 
 <br/>
 
-<img src="README.assets/Untitled 5.png" alt="Untitled" style="zoom:50%;" />
+<img src="README.assets/Untitled 5.png" alt="Untitled" width="60%" height="50%" />
 
 <br/>
 
-<img src="README.assets/Untitled 6.png" alt="Untitled" style="zoom:50%;" />
+<img src="README.assets/Untitled 6.png" alt="Untitled" width="60%" height="50%" />
 
 - 흥행한 영화들의 기준을 누적 관객수 500만 이상으로 잡고 분석한 결과 흥행영화들의 개봉시기는 7,8,12월에 집중되어 있었으며, 흥행이 저조한 영화 (누적관객수 100만 미만)의 경우 11월을 가장 많이 선택했고 8월은 가장 적게 선택한 모습을 볼수있다.
 
