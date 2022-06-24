@@ -11,9 +11,7 @@
 <br/>
 
 <div align="center">
-    <img src="README.assets/image-20220625000728348.png" alt="image-20220625000728348" width="60%" height="50%" />
-</div>
-
+    <img src="README.assets/image-20220625000728348.png" alt="image-20220625000728348" width="70%" />
 </div>
 
 
@@ -112,7 +110,7 @@
 <br/>
 
 <div align='center'>
-    <img src="README.assets/Untitled 2.png" alt="Untitled" width="50%" height="50%" />
+    <img src="README.assets/Untitled 2.png" alt="Untitled" width="50%" />
 </div>
 
 <br/>
@@ -140,7 +138,7 @@
 <br/>
 
 <div align = 'center'>
-    <img src="README.assets/Untitled 3.png" alt="Untitled" width="60%" height="50%"/>
+    <img src="README.assets/Untitled 3.png" alt="Untitled" width="60%" />
 </div>
 
 ​    
@@ -153,7 +151,13 @@
 
 ## 코로나 기간의 영화시장
 
-<img src="README.assets/Untitled 4.png" alt="Untitled" width="60%" height="50%" />
+<br/>
+
+<div align = 'center'>
+    <img src="README.assets/Untitled 4.png" alt="Untitled" width="60%" />
+</div>
+
+
 
 - 코로나 기간동안 (2020.04~2022.03) 개봉한 영화들의 흥행 실적
 - 코로나 발생기간동안에는 500만 이상으로 흥행한 영화는 없는것으로 나왔다.
@@ -167,24 +171,28 @@
 
 <br/>
 
-<img src="README.assets/Untitled 5.png" alt="Untitled" width="60%" height="50%" />
+<div align = 'center'>
+    <img src="README.assets/Untitled 5.png" alt="Untitled" width="60%" />
+    <br/><br/>
+    <img src="README.assets/Untitled 6.png" alt="Untitled" width="60%" />
+</div>
 
-<br/>
 
-<img src="README.assets/Untitled 6.png" alt="Untitled" width="60%" height="50%" />
 
 - 흥행한 영화들의 기준을 누적 관객수 500만 이상으로 잡고 분석한 결과 흥행영화들의 개봉시기는 7,8,12월에 집중되어 있었으며, 흥행이 저조한 영화 (누적관객수 100만 미만)의 경우 11월을 가장 많이 선택했고 8월은 가장 적게 선택한 모습을 볼수있다.
 
 <br/><br/><br/>
 
-<img src="README.assets/Untitled 7.png" alt="Untitled" style="zoom:50%;" />
+<div align = 'center'>
+    <img src="README.assets/Untitled 7.png" alt="Untitled" width="60%" />
+</div>
+
+
 
 - 누적관객수 500만 이상의 영화들은 11월을 가장 적게 선택하는데에 반해 100만 미만의 영화들은 11월을 가장 많이 선택했다.
 - 누적관객수 300만 이상의 영화들은 8월을 많이 선택했는데 100만 미만의 영화는 8월을 가장 적게 선택했다.
 
-<br/>
-
-<u>결론: 영화의 흥행에 자신있다면 7,8,12월을 선택하고, 흥행에 자신이 없다면 4,11월을 선택하는게 좋다.</u>
+<br/><u>결론: 영화의 흥행에 자신있다면 7,8,12월을 선택하고, 흥행에 자신이 없다면 4,11월을 선택하는게 좋다.</u>
 
 <br/><br/>
 
@@ -194,41 +202,84 @@
 
 <br/>
 
-<img src="README.assets/Untitled 8.png" alt="Untitled" style="zoom:50%;" />
+<div align = 'center'>
+    <img src="README.assets/Untitled 8.png" alt="Untitled" width="60%" />
+</div>
+
+
 
 - 영화의 평균 러닝타임은 약 109분 정도이다.
 - 표준편차는 17.05 정도이다.
 
 <br/><br/>
 
-<img src="README.assets/Untitled 9.png" alt="Untitled" style="zoom:50%;" />
+<div align = 'center'>
+    <img src="README.assets/Untitled 9.png" alt="Untitled" width="60%"/>
+</div>
+
+
 
 - 대체로 상영시간과 누적관객수는 비례하는 형태를 띄고있다는것을 확인할수있다.
 - 누적관객수를 100만 미만으로 보유하고있는 영화의 평균상영시간이 제일 적다는것을 알수있다.
 
-<br/>
+<br/><br/>
 
-| index | level      | time    |
-| ----- | ---------- | ------- |
-| 0     | 전체 평균  | 108\.09 |
-| 1     | 100만 미만 | 102\.91 |
-| 2     | 100~300만  | 116\.12 |
-| 3     | 300~500만  | 121\.21 |
-| 4     | 500~700만  | 120\.17 |
-| 5     | 700만 이상 | 127\.13 |
-
-<누적 관객수에 따른 영화의 평균 러닝타임 그래프의 데이터프레임>
+<div align = 'center'>
+    <table border='1'>
+        <caption>누적 관객수에 따른 영화의 평균 러닝타임(DataFrame)</caption>
+        <thead>
+            <tr>
+                <th>audience</th>
+                <th>time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>전체 평균</td>
+                <td>108.09</td>
+            </tr>
+            <tr>
+                <td>100만 미만</td>
+                <td>102.91</td>
+            </tr>
+            <tr>
+                <td>100~300만</td>
+                <td>116.12</td>
+            </tr>
+            <tr>
+                <td>300~500만</td>
+                <td>121.21</td>
+            </tr>
+            <tr>
+                <td>500~700만</td>
+                <td>120.17</td>
+            </tr>
+            <tr>
+                <td>700만 이상</td>
+                <td>127.13</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 <br/><br/><br/>
 
-<img src="README.assets/Untitled 10.png" alt="Untitled" style="zoom:50%;" />
+<div align = 'center'>
+    <img src="README.assets/Untitled 10.png" alt="Untitled" width="60%" />
+</div>
+
+
 
 - 전체 컬럼들의 상관관계를 보면 위와 같다.
 - 일일 관객수와 일일 매출액의 상관계수가 가장 크다.
 
 <br/><br/>
 
-<img src="README.assets/Untitled 11.png" alt="Untitled" style="zoom:50%;" />
+<div align = 'center'>
+    <img src="README.assets/Untitled 11.png" alt="Untitled" width="50%" />
+</div>
+
+
 
 - 러닝타임과 누적관객수의 상관계수가 0.41로 나왔다.
 - 뚜렷한 양적 상관관계를 가진다.
@@ -239,7 +290,11 @@
 
 <br/><br/>
 
-<img src="README.assets/Untitled 12.png" alt="Untitled" style="zoom:50%;" />
+<div align = 'center'>
+    <img src="README.assets/Untitled 12.png" alt="Untitled" width="60%" />
+</div>
+
+
 
 - 누적관객수 100만 미만은 대체로 상영기간이 짧다
 - 누적관객수 500만 이상의 영화들은 우상향하는 형태를 보인다.
