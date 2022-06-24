@@ -8,7 +8,7 @@
 
 코로나 이후 첫 천만관객 영화인 범죄도시2를 보며 영화를 흥행하게 만드는 흥행요소는 어떤것일지 알아보고자 분석을 진행하였다.
 
-
+<br/><br/>
 
 # 🗓프로젝트 기간
 
@@ -21,7 +21,7 @@
 - 산출물 및 발표자료 정리 : 22.06.16 ~ 22.06.19
 - 프로젝트 발표 : 22.06.20
 
-
+<br/><br/>
 
 # 🔧담당 파트
 
@@ -32,24 +32,20 @@
 - 통합 데이터 분석 및 시각화
 - 발표자료 초안 작성
 
-
+<br/><br/>
 
 # 💻기술 스택
 
 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src = "https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"> <img src = "https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"> <img src = "https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white"> <img src = "https://img.shields.io/badge/json-000000?style=for-the-badge&logo=json&logoColor=white"> <img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/seaborn-0B2C4A?style=for-the-badge&logo=seaborn&logoColor=white">
 
-
-
-
-
+<br/><br/>
 
 # 🗂전체 아키택쳐
 
 ![Untitled](README.assets/Untitled.png)
 
 
-
-
+<br/><br/>
 
 # 📋협업관리
 
@@ -61,13 +57,13 @@
 
 ![Untitled](README.assets/Untitled 1.png)
 
-
+<br/><br/>
 
 # 🎮**인스타그램 크롤링 과정**
 
 ![Untitled](README.assets/Untitled 2.png)
 
-
+<br/>
 
 ![final_insta_crawling](README.assets/final_insta_crawling.gif)
 
@@ -77,11 +73,13 @@
 - 좋아요수와 조회수, 해시태그, 게시글 내용 추출
 - 좋아요수가 비공개인 경우 좋아요를 누른 유저수를 추출
 
+<br/><br/>
+
 # 📊데이터 분석 결과
 
 > 내 파트부분만 정리
 
-
+<br/>
 
 ## 한국 영화시장
 
@@ -91,7 +89,7 @@
 - 최근 10년간 영화관에서 상영한 영화의 갯수는 693개 이며, 이 영화들중 500만 이상의 영화는 49개, 700만 이상은 31개, 천만영화의 경우 14개
 - 전체 영화중 소수의 영화들만 흥행한다.
 
-
+<br/><br/>
 
 ## 코로나 기간의 영화시장
 
@@ -101,7 +99,7 @@
 - 코로나 발생기간동안에는 500만 이상으로 흥행한 영화는 없는것으로 나왔다.
 - 코로나 기간에는 대부분의 영화가 흥행에 실패한것으로 보인다.
 
-
+<br/><br/>
 
 ## 흥행요인: 영화 시장의 활성화
 
@@ -113,16 +111,18 @@
 
 - 흥행한 영화들의 기준을 누적 관객수 500만 이상으로 잡고 분석한 결과 흥행영화들의 개봉시기는 7,8,12월에 집중되어 있었으며, 흥행이 저조한 영화 (누적관객수 100만 미만)의 경우 11월을 가장 많이 선택했고 8월은 가장 적게 선택한 모습을 볼수있다.
 
+<br/><br/>
+
 <img src="README.assets/Untitled 7.png" alt="Untitled" style="zoom:50%;" />
 
 - 누적관객수 500만 이상의 영화들은 11월을 가장 적게 선택하는데에 반해 100만 미만의 영화들은 11월을 가장 많이 선택했다.
 - 누적관객수 300만 이상의 영화들은 8월을 많이 선택했는데 100만 미만의 영화는 8월을 가장 적게 선택했다.
 
-
+<br/>
 
 결론: 영화의 흥행에 자신있다면 7,8,12월을 선택하고, 흥행에 자신이 없다면 4,11월을 선택하는게 좋다.
 
-
+<br/><br/>
 
 ## 흥행요인 : 러닝타임과 상영기간
 
@@ -131,10 +131,14 @@
 - 영화의 평균 러닝타임은 약 109분 정도이다.
 - 표준편차는 17.05 정도이다.
 
+<br/><br/>
+
 <img src="README.assets/Untitled 9.png" alt="Untitled" style="zoom:50%;" />
 
 - 대체로 상영시간과 누적관객수는 비례하는 형태를 띄고있다는것을 확인할수있다.
 - 누적관객수를 100만 미만으로 보유하고있는 영화의 평균상영시간이 제일 적다는것을 알수있다.
+
+<br/>
 
 | index | level      | time    |
 | ----- | ---------- | ------- |
@@ -145,12 +149,14 @@
 | 4     | 500~700만  | 120\.17 |
 | 5     | 700만 이상 | 127\.13 |
 
-
+<br/><br/>
 
 <img src="README.assets/Untitled 10.png" alt="Untitled" style="zoom:50%;" />
 
 - 전체 컬럼들의 상관관계를 보면 위와 같다.
 - 일일 관객수와 일일 매출액의 상관계수가 가장 크다.
+
+<br/><br/>
 
 <img src="README.assets/Untitled 11.png" alt="Untitled" style="zoom:50%;" />
 
@@ -160,17 +166,18 @@
     - 보통의 퀄리티 높은 영화들은 보여줄 내용이 많기에 러닝타임이 길것이므로 결국은 내용이나 퀄리티가 좋아야 흥행한다고 생각한다.
     - 그렇지만 무조건 러닝타임이 길다고해서 모든 영화가 흥행하는것은 아니다.
     
+<br/><br/>
 
 <img src="README.assets/Untitled 12.png" alt="Untitled" style="zoom:50%;" />
 
 - 누적관객수 100만 미만은 대체로 상영기간이 짧다
 - 누적관객수 500만 이상의 영화들은 우상향하는 형태를 보인다.
 
-
+<br/>
 
 결론 : 러닝타임은 평균 이상으로 하는게 좋고 영화가 흥행을 하고있다면 상영기간을 늘리자.
 
-
+<br/><br/>
 
 ## 흥행요인 : 출연배우의 영향력
 
@@ -178,11 +185,11 @@
 
 - 인스타그램 크롤링 데이터를 이용해 해시태그를 워드 클라우드로 나타낸 결과 영화에 출연한 배우들이 같이 태그되어있는걸 볼수있다.
 
-
+<br/>
 
 결론 : 영화의 흥행에 도움이 될만한 배우를 캐스팅하자
 
-
+<br/><br/>
 
 # ⏳한계점 및 아쉬운점
 
