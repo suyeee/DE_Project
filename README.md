@@ -79,21 +79,36 @@
         <tr>
             <td height="140px" align="center">
             	<img src="README.assets/image-20220626232752925.png" width="200px" /> 
-                <br><br>김흥민
-                <br>조장
-                <br>-네이버 영화 크롤링
-                                                                                                        				</td>
+                <br><br>김흥민 (💡조장)
+                <div align = 'left'>
+                    <br>- 네이버영화 사이트 크롤링
+                    <br>- 네이버 영화 데이터 전처리
+                    <br>- MySQL 파이프라인 구축
+                    <br>- 통합 데이터 분석 및 시각화
+                    <br>- 발표자료 편집
+                </div>
+            </td>
         	<td height="140px" align="center">
             	<img src="README.assets/image-20220626232823352.png" width="200px" />
                 <br><br> 박상권
-                <br>
-                <br>				
+                <div align='left'>
+                    <br>- 네이버영화 사이트 크롤링
+                    <br>- 네이버 영화 데이터 전처리
+                    <br>- MySQL 파이프라인 구축
+                    <br>- 통합 데이터 분석 및 시각화
+                    <br>- 발표자료 편집
+                </div>				
             </td>
         	<td height="140px" align="center">
             	<img src="README.assets/image-20220626232759157.png" width="200px" /> 
                 <br><br> 최진호 
-                <br>
-                <br>		
+                <div align = 'left'>
+                    <br>- 인스타그램 크롤링
+                    <br>- 영화진흥위 데이터 수집
+                    <br>- 영화진흥위 데이터 전처리
+                    <br>- 통합 데이터 분석 및 시각화
+                    <br>- 발표자료 편집
+                </div>		
             </td>
         	<td height="140px" align="center"> <a href="https://github.com/suyeee">
             	<img src="README.assets/image-20220626232746820.png" width="200px" /> 
@@ -111,21 +126,6 @@
         </tr>
     </table>
 </div>
-
-
-
-
-
-
-
-
-
-- 인스타그램 크롤링
-- 영화진흥위 데이터 수집
-- 인스타그램 데이터 전처리
-- 인스타그램 데이터 시각화
-- 통합 데이터 분석 및 시각화
-- 발표자료 초안 작성
 
 <br/><br/>
 
