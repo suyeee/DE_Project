@@ -1,7 +1,3 @@
----
-
----
-
 <br/>
 
 <div align="center">
@@ -25,7 +21,7 @@
 
 2. [프로젝트 기간](https://github.com/suyeee/DE_Project#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B8%B0%EA%B0%84)
 
-3. [역할분담](https://github.com/suyeee/DE_Project#%EB%8B%B4%EB%8B%B9-%ED%8C%8C%ED%8A%B8)
+3. [역할분담](https://github.com/suyeee/DE_Project#%EC%97%AD%ED%95%A0%EB%B6%84%EB%8B%B4)
 
 4. [기술 스택](https://github.com/suyeee/DE_Project#%EA%B8%B0%EC%88%A0-%EC%8A%A4%ED%83%9D)
 
@@ -49,13 +45,13 @@
 
 9. [한계점 및 아쉬운점](https://github.com/suyeee/DE_Project#%ED%95%9C%EA%B3%84%EC%A0%90-%EB%B0%8F-%EC%95%84%EC%89%AC%EC%9A%B4%EC%A0%90)
 
-<br/><br/>
+<br/><br/><br>
 
 # 💡**주제 선정**
 
 코로나 이후 첫 천만관객 영화인 범죄도시2를 보며 영화를 흥행하게 만드는 흥행요소는 어떤것일지 알아보고자 분석을 진행하였다.
 
-<br/><br/>
+<br/><br/><br>
 
 # 🗓프로젝트 기간
 
@@ -68,79 +64,91 @@
 - 산출물 및 발표자료 정리 : 22.06.16 ~ 22.06.19
 - 프로젝트 발표 : 22.06.20
 
-<br/><br/>
+<br/><br/><br>
 
 # 🔧역할분담
 
 <br/>
 
-<div>
+<div class = 'name'>
     <table>
         <tr>
             <td height="140px" align="center">
             	<img src="README.assets/image-20220626232752925.png" width="200px" /> 
-                <br><br>김흥민 (💡조장)
-                <div align = 'left'>
-                    <br>- 네이버영화 사이트 크롤링
-                    <br>- 네이버 영화 데이터 전처리
-                    <br>- MySQL 파이프라인 구축
-                    <br>- 통합 데이터 분석 및 시각화
-                    <br>- 발표자료 편집
-                </div>
+                <br><br>김흥민<br>👑조장
             </td>
         	<td height="140px" align="center">
             	<img src="README.assets/image-20220626232823352.png" width="200px" />
-                <br><br> 박상권
-                <div align='left'>
-                    <br>- 네이버영화 사이트 크롤링
-                    <br>- 네이버 영화 데이터 전처리
-                    <br>- MySQL 파이프라인 구축
-                    <br>- 통합 데이터 분석 및 시각화
-                    <br>- 발표자료 편집
-                </div>				
+                <br><br>박상권<br>팀원			
             </td>
         	<td height="140px" align="center">
             	<img src="README.assets/image-20220626232759157.png" width="200px" /> 
-                <br><br> 최진호 
-                <div align = 'left'>
-                    <br>- 인스타그램 크롤링
-                    <br>- 영화진흥위 데이터 수집
-                    <br>- 영화진흥위 데이터 전처리
-                    <br>- 통합 데이터 분석 및 시각화
-                    <br>- 발표자료 편집
-                </div>		
+                <br><br>최진호<br>팀원	
             </td>
-        	<td height="140px" align="center"> <a href="https://github.com/suyeee">
+        	<td height="140px" align="center"><a href="https://github.com/suyeee">
             	<img src="README.assets/image-20220626232746820.png" width="200px" /> 
-                <br><br> 황수연 
-                <br></a>
-                <div align = 'left'>
-                    <br>- 인스타그램 크롤링
-                	<br>- 영화진흥위 데이터 수집
-                	<br>- 인스타그램 데이터 전처리
-                	<br>- 인스타그램 데이터 시각화
-                	<br>- 통합 데이터 분석 및 시각화
-                	<br>- 발표자료 초안 작성
-                </div>
+                <br><br>황수연<br>팀원</a>
             </td>
+        </tr>
+        <tr>
+            <div class = 'role', align = 'left'>
+                <td bgcolor = '#f5f5f5'>
+                    <ul>
+                        <li>네이버영화 사이트 크롤링</li>
+                        <li>네이버 영화 데이터 전처리</li>
+                        <li>MySQL 파이프라인 구축</li>
+                        <li>통합 데이터 분석 및 시각화</li>
+                        <li>발표자료 편집</li>
+                    </ul>
+                </td>
+                <td bgcolor = '#f5f5f5'>
+                    <ul>
+                        <li>네이버영화 사이트 크롤링</li>
+                        <li>네이버 영화 데이터 전처리</li>
+                        <li>MySQL 파이프라인 구축</li>
+                        <li>통합 데이터 분석 및 시각화</li>
+                        <li>발표자료 편집</li>
+                    </ul>
+                </td>
+                <td bgcolor = '#f5f5f5'>
+                    <ul>
+                        <li>인스타그램 크롤링</li>
+                        <li>영화진흥위 데이터 수집</li>
+                        <li>영화진흥위 데이터 전처리</li>
+                        <li>통합 데이터 분석 및 시각화</li>
+                        <li>발표자료 편집</li>
+                    </ul>
+                </td>
+                <td bgcolor = '#f5f5f5'>
+                    <ul>
+                        <li>인스타그램 크롤링</li>
+                	    <li>영화진흥위 데이터 수집</li>
+                	    <li>인스타그램 데이터 전처리</li>
+                	    <li>인스타그램 데이터 시각화</li>
+                	    <li>통합 데이터 분석 및 시각화</li>
+                	    <li>발표자료 초안 작성</li>
+                    </ul>
+                </td>
+            </div>
         </tr>
     </table>
 </div>
 
-<br/><br/>
+<br/><br/><br/><br><br>
 
 # 💻기술 스택
 
-<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src = "https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"> <img src = "https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"> <img src = "https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white"> <img src = "https://img.shields.io/badge/json-000000?style=for-the-badge&logo=json&logoColor=white"> <img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/seaborn-0B2C4A?style=for-the-badge&logo=seaborn&logoColor=white">
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src = "https://img.shields.io/badge/json-000000?style=for-the-badge&logo=json&logoColor=white"> <img src = "https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"> <img src = "https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"> <img src = "https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white"> <img src = "https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=Visual Studio Code&logoColor=white"> <img src = "https://img.shields.io/badge/colab-F9AB00?style=for-the-badge&logo=Google Colab&logoColor=white"> <img src = "https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=Jupyter&logoColor=white">
 
-<br/><br/>
+<img src = "https://img.shields.io/badge/spark-E25A1C?style=for-the-badge&logo=Apache Spark&logoColor=white"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src = "https://img.shields.io/badge/aws-232F3E?style=for-the-badge&logo=Amazon AWS&logoColor=white"> <img src="https://img.shields.io/badge/seaborn-0B2C4A?style=for-the-badge&logo=seaborn&logoColor=white"> <img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
+
+<br/><br/><br><br><br>
 
 # 🗂전체 아키텍쳐
 
 ![Untitled](README.assets/Untitled.png)
 
-
-<br/><br/>
+<br/><br/><br>
 
 # 📋협업관리
 
@@ -154,14 +162,13 @@
 
 <br/><br/>
 
-# 🎮**인스타그램 크롤링 과정**
+# 🧲데이터 수집 과정 -수정중
 
 <br/>
 
 <div align='center'>
     <img src="README.assets/Untitled 2.png" alt="Untitled" width="50%" />
 </div>
-
 <br/>
 
 <br/>
