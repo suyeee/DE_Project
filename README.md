@@ -1,19 +1,20 @@
+---
+
+---
+
 <br/>
 
 <div align="center">
     <h1>
-        영화 흥행요소 분석 포트폴리오
+        영화 흥행요소 분석 포트폴리오 - 수정중
     </h1>
 </div>
-
-> **팀원들의 분석결과는 제외**
 
 <br/>
 
 <div align="center">
     <img src="README.assets/image-20220625000728348.png" alt="image-20220625000728348" width="70%" />
 </div>
-
 
 
 <br/><br/>
@@ -24,7 +25,7 @@
 
 2. [프로젝트 기간](https://github.com/suyeee/DE_Project#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B8%B0%EA%B0%84)
 
-3. [담당 파트](https://github.com/suyeee/DE_Project#%EB%8B%B4%EB%8B%B9-%ED%8C%8C%ED%8A%B8)
+3. [역할분담](https://github.com/suyeee/DE_Project#%EB%8B%B4%EB%8B%B9-%ED%8C%8C%ED%8A%B8)
 
 4. [기술 스택](https://github.com/suyeee/DE_Project#%EA%B8%B0%EC%88%A0-%EC%8A%A4%ED%83%9D)
 
@@ -69,7 +70,55 @@
 
 <br/><br/>
 
-# 🔧담당 파트
+# 🔧역할분담
+
+<br/>
+
+<div>
+    <table>
+        <tr>
+            <td height="140px" align="center">
+            	<img src="README.assets/image-20220626232752925.png" width="200px" /> 
+                <br><br>김흥민
+                <br>조장
+                <br>-네이버 영화 크롤링
+                                                                                                        				</td>
+        	<td height="140px" align="center">
+            	<img src="README.assets/image-20220626232823352.png" width="200px" />
+                <br><br> 박상권
+                <br>
+                <br>				
+            </td>
+        	<td height="140px" align="center">
+            	<img src="README.assets/image-20220626232759157.png" width="200px" /> 
+                <br><br> 최진호 
+                <br>
+                <br>		
+            </td>
+        	<td height="140px" align="center"> <a href="https://github.com/suyeee">
+            	<img src="README.assets/image-20220626232746820.png" width="200px" /> 
+                <br><br> 황수연 
+                <br></a>
+                <div align = 'left'>
+                    <br>- 인스타그램 크롤링
+                	<br>- 영화진흥위 데이터 수집
+                	<br>- 인스타그램 데이터 전처리
+                	<br>- 인스타그램 데이터 시각화
+                	<br>- 통합 데이터 분석 및 시각화
+                	<br>- 발표자료 초안 작성
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+
+
+
+
+
+
 
 - 인스타그램 크롤링
 - 영화진흥위 데이터 수집
