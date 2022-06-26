@@ -1,3 +1,5 @@
+
+
 <br/>
 
 <div align="center">
@@ -27,9 +29,17 @@
 
 5. [전체 아키텍쳐](https://github.com/suyeee/DE_Project#%EC%A0%84%EC%B2%B4-%EC%95%84%ED%82%A4%ED%83%9D%EC%B3%90)
 
+   + [ERD]
+
 6. [협업 관리](https://github.com/suyeee/DE_Project#%ED%98%91%EC%97%85%EA%B4%80%EB%A6%AC)
 
-7. [인스타그램 크롤링 과정](https://github.com/suyeee/DE_Project#%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%ED%81%AC%EB%A1%A4%EB%A7%81-%EA%B3%BC%EC%A0%95)
+7. [데이터 수집 과정]
+
+   ​	i. [네이버 영화 크롤링]
+
+   ​	ii. [인스타그램 크롤링]
+
+   ​	iii. [영화진흥위원회 OpenAPI]
 
 8. [데이터 분석결과](https://github.com/suyeee/DE_Project#%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%EA%B2%B0%EA%B3%BC)
 
@@ -150,6 +160,14 @@
 
 <br/><br/><br>
 
+## ERD
+
+<br>
+
+![image-20220627012128299](README.assets/image-20220627012128299.png)
+
+<br><br><br><br><br>
+
 # 📋협업관리
 
 > **슬랙, 노션, 줌으로 진행상황 공유**
@@ -164,24 +182,113 @@
 
 # 🧲데이터 수집 과정 -수정중
 
-<br/>
+> **네이버 영화 크롤링 과정**
+>
+> **인스타그램 크롤링 과정**
+>
+> **영화진흥위원회 OpenAPI 수집 과정**
+
+<br><br><br>
+
+## 네이버 영화 크롤링 과정
+
+1. 영화 코드번호 수집
+
+![image-20220627012406770](README.assets/image-20220627012406770.png)
+
+<br><br><br><br>
+
+![image-20220627013445344](README.assets/image-20220627013445344.png)
+
+<br><br><br><br>
+
+![image-20220627013625033](README.assets/image-20220627013625033.png)
+
++ 위 과정을 반복하는 코드를 작성
+
+<br><br><br><br>
+
+![image-20220627013831968](README.assets/image-20220627013831968.png)
+
+<br><br><br><br>
+
+2. 영화별 세부데이터 수집
+
+![image-20220627014500314](README.assets/image-20220627014500314.png)
+
+<br><br><br><br><br>
+
+## 인스타그램 크롤링 과정
+
+<br>
 
 <div align='center'>
     <img src="README.assets/Untitled 2.png" alt="Untitled" width="50%" />
 </div>
-<br/>
+<br/><br/><br><br>
 
-<br/>
+![image-20220627015200840](README.assets/image-20220627015200840.png)
+
+<br>
+
++ 함수 6개를 만든다.
+  + 인스타그램을 크롤링하기위해 크롬에 대한 옵션세팅과 드라이버를 생성하는 함수
+  + 검색어에 대한 링크를 호출해주는 함수
+  + 검색후 나온 첫번째 게시글을 클릭해주는 함수
+  + 게시글의 내용을 추출해주는 함수
+  + 다음 게시글을 클릭해주는 함수
+  + 크롤링하는데 걸리는 시간 측정을 위해 슬랙으로 진행상황과 시간을 같이 보내주는 함수
+
+<br><br><br><br>
+
+![image-20220627015909460](README.assets/image-20220627015909460.png)
+
+<br>
+
++ 드라이버를 실행시키면 슬랙으로 '크롤링 시작' 메시지와 함께 현재날짜와 시간이 같이 전송됨.
++ 드라이버 실행후엔 인스타그램 로그인을 하고 검색어를 입력하게 해주는 input 함수가 실행됨. 검색할 검색어를 터미널에 입력을 해주게 되면 사전에 만들어둔 함수로 인해 해당 검색어에 대한 링크가 호출된다.
++ 검색어에 대한 링크로 페이지가 이동되면 해당 페이지의 첫번째 게시글을 클릭을 한 후 게시글 내용을 추출해주는 함수로 인해 게시글 내용이 추출된다.
+  + 게시글 내용 : 좋아요수, 조회수, 해시태그, 해시태그를 포함한 전체 게시글 내용
++ 첫번째 게시글에 대한 추출이 끝나면 다음페이지로 이동하는 버튼을 클릭하여 이동하는데 이동하고 나서부턴 for 문에 의해 원하는 게시글의 갯수에 맞게 for문이 실행된다.
++ 게시글 수집이 전부 완료되면 자동으로 드라이버가 종료되고 '드라이버 종료' 메세지와 함께 현재날짜와 시간이 같이 출력. 그 후에는크롤링한 결과물을 csv로 저장하거나 MySQL 데이터베이스에 저장하는데 저장이 완료되면 마찬가지로 슬랙에 '결과 저장' 메시지와 날짜, 시간이 같이 전송된다.
+
+<br><br><br><br>
+
+<div align = 'center'>
+    <img src="README.assets/image-20220627020839912.png", width=70% /><br><br>
+    <p>
+        <
+        slack으로 온 메세지 (진행상황, 날짜, 시간)>
+    </p>
+</div>
+
+<br><br><br><br><br>
+
+### 인스타그램 크롤링 과정 영상
 
 ![final_insta_crawling](README.assets/final_insta_crawling.gif)
 
-
+<br>
 
 - Selenium 활용
 - 좋아요수와 조회수, 해시태그, 게시글 내용 추출
 - 좋아요수가 비공개인 경우 좋아요를 누른 유저수를 추출
 
-<br/><br/>
+<br/><br/><br><br>
+
+## 영화진흥위원회 OpenAPI
+
+1. 데이터 수집 요청
+
+![image-20220627022356708](README.assets/image-20220627022356708.png)
+
+<br><br><br><br><br>
+
+2. 영화별 세부데이터 수집
+
+![image-20220627022600180](README.assets/image-20220627022600180.png)
+
+<br><br><br><br><br><br>
 
 # 📊데이터 분석 결과
 
@@ -319,7 +426,6 @@
         <표 : 누적 관객수에 따른 영화의 평균 러닝타임(DataFrame)>
     </p>
 </div>
-
 <br/><br/><br/>
 
 <div align = 'center'>
