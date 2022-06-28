@@ -530,7 +530,31 @@
 + 전체적으로 관람객수가 많은 영화일수록 평점의 평균이 올라가고 있다.
 + 우측의 버블차트로도 동일한 내용을 확인할수있다.
 
+<br><br><br>
+
+<div align = 'center'>
+    <img src="README.assets/image-20220628235850979.png" alt="Untitled" width="60%" />
+</div>
+
+<br>
+
+
+
 <br><br>
+
+결론 : 
+
+<br><br>
+
+
+
+
+
+
+
+
+
+
 
 ## 흥행요인 : 출연배우의 영향력
 
