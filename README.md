@@ -27,19 +27,19 @@
 
 4. [기술 스택](https://github.com/suyeee/DE_Project#%EA%B8%B0%EC%88%A0-%EC%8A%A4%ED%83%9D)
 
-5. [전체 아키텍쳐](https://github.com/suyeee/DE_Project#%EC%A0%84%EC%B2%B4-%EC%95%84%ED%82%A4%ED%83%9D%EC%B3%90)
+5. [전체 아키텍쳐](https://github.com/suyeee/DE_Project#%EC%A0%84%EC%B2%B4-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90)
 
-   + [ERD]
+   + [ERD](https://github.com/suyeee/DE_Project#erd)
 
 6. [협업 관리](https://github.com/suyeee/DE_Project#%ED%98%91%EC%97%85%EA%B4%80%EB%A6%AC)
 
-7. [데이터 수집 과정]
+7. [데이터 수집 과정](https://github.com/suyeee/DE_Project#%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91-%EA%B3%BC%EC%A0%95)
 
-   ​	i. [네이버 영화 크롤링]
+   ​	i. [네이버 영화 크롤링](https://github.com/suyeee/DE_Project#%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%98%81%ED%99%94-%ED%81%AC%EB%A1%A4%EB%A7%81-%EA%B3%BC%EC%A0%95)
 
-   ​	ii. [인스타그램 크롤링]
+   ​	ii. [인스타그램 크롤링](https://github.com/suyeee/DE_Project#%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%ED%81%AC%EB%A1%A4%EB%A7%81-%EA%B3%BC%EC%A0%95)
 
-   ​	iii. [영화진흥위원회 OpenAPI]
+   ​	iii. [영화진흥위원회 OpenAPI](https://github.com/suyeee/DE_Project#%EC%98%81%ED%99%94%EC%A7%84%ED%9D%A5%EC%9C%84%EC%9B%90%ED%9A%8C-openapi)
 
 8. [데이터 분석결과](https://github.com/suyeee/DE_Project#%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%EA%B2%B0%EA%B3%BC)
 
@@ -292,8 +292,6 @@
 
 # 📊데이터 분석 결과 - 수정중
 
-> 내 파트부분만 정리
-
 <br/>
 
 ## 한국 영화시장
@@ -312,7 +310,7 @@
 
 <br/><br/>
 
-## 코로나 기간의 영화시장
+## 사회적 거리두기 기간의 영화시장
 
 <br/>
 
@@ -333,6 +331,19 @@
 > **여러 흥행요인들중 영화시장의 활성화에 따라 흥행에 영향을 미치는지를 분석**
 
 <br/>
+
+<div align = 'center'>
+    <img src="README.assets/image-20220628231827456.png" alt="Untitled" width="60%" /><br>
+    <
+    표 : 연도별 영화 개봉수>
+</div>
+
+<br>
+
+- 대체로 비슷한 개봉수를 보인다.
+- 개봉 횟수와 작품의 흥행은 항상 비례하지는 않는다.
+
+<br>
 
 <div align = 'center'>
     <img src="README.assets/Untitled 5.png" alt="Untitled" width="60%" />
