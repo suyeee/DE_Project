@@ -333,9 +333,8 @@
 <br/>
 
 <div align = 'center'>
-    <img src="README.assets/image-20220628231827456.png" alt="Untitled" width="60%" /><br>
-    <
-    표 : 연도별 영화 개봉수>
+    <표 : 연도별 영화 개봉수><br>
+    <img src="README.assets/image-20220628231827456.png" alt="Untitled" width="60%" />
 </div>
 
 <br>
@@ -343,13 +342,43 @@
 - 대체로 비슷한 개봉수를 보인다.
 - 개봉 횟수와 작품의 흥행은 항상 비례하지는 않는다.
 
+<br><br><br>
+
+<div align = 'center'>
+    <img src="README.assets/image-20220628232446127.png" alt="Untitled" width="60%" />
+</div>
+
 <br>
+
+- 코로나로 인한 사회적거리두기 시기인 2020년도 이후를 제외하고 보면 대체로 1억명대의 관객수를 유지하고있다.
+- 즉, 영화의 활성화 정도는 영화흥행에 영향을 주지않는다. 
+
+<br><br><br>
+
+<div align = 'center'>
+    <표 : 연도별 흥행도><br>
+    <img src="README.assets/image-20220628232944729.png" alt="Untitled" width="60%" />
+</div>
+
+<br>
+
+- 영화시장이 부진한 해 : 12, 14, 19년
+- 영화시장이 흥행한 해 : 13, 16년
+
+<br><br>
+
+그렇다면 영화 시장이 활성화가 되는 특정 시기가 존재할까?
+
+<br><br><br>
 
 <div align = 'center'>
     <img src="README.assets/Untitled 5.png" alt="Untitled" width="60%" />
     <br/><br/>
     <img src="README.assets/Untitled 6.png" alt="Untitled" width="60%" />
+    <br><br><br>
+    <표 : 10년간 월별로 개봉한 영화수의 합계 (흥행영화 vs 흥행저조 영화)>
 </div>
+
 
 <br/>
 
@@ -366,7 +395,7 @@
 - 누적관객수 500만 이상의 영화들은 11월을 가장 적게 선택하는데에 반해 100만 미만의 영화들은 11월을 가장 많이 선택했다.
 - 누적관객수 300만 이상의 영화들은 8월을 많이 선택했는데 100만 미만의 영화는 8월을 가장 적게 선택했다.
 
-<br/><u>결론: 영화의 흥행에 자신있다면 7,8,12월을 선택하고, 흥행에 자신이 없다면 4,11월을 선택하는게 좋다.</u>
+<br/><u>결론: 영화의 활성화 정도는 영화의 흥행에 영향을 주지않으며, 영화의 흥행에 자신있다면 7,8,12월을 선택하고, 흥행에 자신이 없다면 4,11월을 선택하는게 좋다.</u>
 
 <br/><br/>
 
