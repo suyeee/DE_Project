@@ -586,9 +586,15 @@
 
 <br><br><br>
 
+<div align = 'center'>
+    <img src="README.assets/image-20220630233308905.png" alt="Untitled" width="90%" />
+    <br><br>
+    <흥행영화(500만 관객수 이상)기준, 누적관객수와 누적스크린수의 상관관계를 나타낸것>
+</div>
 
+<br>
 
-
++ 흥행영화들만 봤을시 관객수와 스크린수는 강한 양의 상관관계를 가지고 있다는것을 알수있다.
 
 
 
