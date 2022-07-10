@@ -46,13 +46,21 @@
 
    ​	i. [한국 영화시장](https://github.com/suyeee/DE_Project#%ED%95%9C%EA%B5%AD-%EC%98%81%ED%99%94%EC%8B%9C%EC%9E%A5)
 
-   ​	ii. [코로나 기간의 영화시장](https://github.com/suyeee/DE_Project#%EC%BD%94%EB%A1%9C%EB%82%98-%EA%B8%B0%EA%B0%84%EC%9D%98-%EC%98%81%ED%99%94%EC%8B%9C%EC%9E%A5)
+   ​	ii. [사회적 거리두기 기간의 영화시장](https://github.com/suyeee/DE_Project#%EC%82%AC%ED%9A%8C%EC%A0%81-%EA%B1%B0%EB%A6%AC%EB%91%90%EA%B8%B0-%EA%B8%B0%EA%B0%84%EC%9D%98-%EC%98%81%ED%99%94%EC%8B%9C%EC%9E%A5)
 
-   ​	iii. [흥행요인 : 영화시장의 활성화](https://github.com/suyeee/DE_Project#%ED%9D%A5%ED%96%89%EC%9A%94%EC%9D%B8-%EC%98%81%ED%99%94-%EC%8B%9C%EC%9E%A5%EC%9D%98-%ED%99%9C%EC%84%B1%ED%99%94)
+   ​	iii. [흥행요인1 : 영화시장의 활성화](https://github.com/suyeee/DE_Project#%ED%9D%A5%ED%96%89%EC%9A%94%EC%9D%B81--%EC%98%81%ED%99%94-%EC%8B%9C%EC%9E%A5%EC%9D%98-%ED%99%9C%EC%84%B1%ED%99%94)
 
-   ​	iv. [흥행요인 : 러닝타임과 상영기간](https://github.com/suyeee/DE_Project#%ED%9D%A5%ED%96%89%EC%9A%94%EC%9D%B8--%EB%9F%AC%EB%8B%9D%ED%83%80%EC%9E%84%EA%B3%BC-%EC%83%81%EC%98%81%EA%B8%B0%EA%B0%84)
+   ​	iv. [흥행요인2 : 러닝타임과 상영기간](https://github.com/suyeee/DE_Project#%ED%9D%A5%ED%96%89%EC%9A%94%EC%9D%B82--%EB%9F%AC%EB%8B%9D%ED%83%80%EC%9E%84%EA%B3%BC-%EC%83%81%EC%98%81%EA%B8%B0%EA%B0%84)
 
-   ​	v. [흥행요인 : 출연배우의 영향력](https://github.com/suyeee/DE_Project#%ED%9D%A5%ED%96%89%EC%9A%94%EC%9D%B8--%EC%B6%9C%EC%97%B0%EB%B0%B0%EC%9A%B0%EC%9D%98-%EC%98%81%ED%96%A5%EB%A0%A5)
+   ​	v. [흥행요인3 : 영화의 평점](https://github.com/suyeee/DE_Project#%ED%9D%A5%ED%96%89%EC%9A%94%EC%9D%B83--%EC%98%81%ED%99%94-%ED%8F%89%EC%A0%90)
+
+   ​	vi. [흥행요인4 : 스크린수](https://github.com/suyeee/DE_Project#%ED%9D%A5%ED%96%89%EC%9A%94%EC%9D%B84--%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%88%98)
+
+   ​	vii. [흥행요인5 : 배급사](https://github.com/suyeee/DE_Project#%ED%9D%A5%ED%96%89%EC%9A%94%EC%9D%B85--%EB%B0%B0%EA%B8%89%EC%82%AC)
+
+   ​	viii. [흥행요인6 : 출연배우](https://github.com/suyeee/DE_Project#%ED%9D%A5%ED%96%89%EC%9A%94%EC%9D%B86--%EC%B6%9C%EC%97%B0%EB%B0%B0%EC%9A%B0)
+
+   ​	ix. [최종결론(범죄도시2에 흥행요인 적용해보기)](https://github.com/suyeee/DE_Project#%EC%B5%9C%EC%A2%85%EA%B2%B0%EB%A1%A0)
 
 9. [한계점 및 아쉬운점](https://github.com/suyeee/DE_Project#%ED%95%9C%EA%B3%84%EC%A0%90-%EB%B0%8F-%EC%95%84%EC%89%AC%EC%9A%B4%EC%A0%90)
 
